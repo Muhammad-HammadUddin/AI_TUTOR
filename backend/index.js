@@ -37,5 +37,7 @@ app.use((error, req, res, next) => {
   });
 });
 
-// ✅ Start the server if needed
-//  app.listen(3000, () => console.log("🚀 Server running on http://localhost:3000"));
+// ❌ DO NOT use app.listen() on Vercel
+
+// ✅ Export the Express app for Vercel Serverless Function
+export default app;
