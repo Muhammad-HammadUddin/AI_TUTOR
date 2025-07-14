@@ -22,7 +22,7 @@ const UserProvider = ({ children }) => {
     console.log("Restored user:", parsedUser)
     console.log(parsedUser.token)
   }
-}, [])
+}, [setUser])
   return (
     <UserContext.Provider value={{ user, setUser,login,setLogin,token }}>
       {children}
