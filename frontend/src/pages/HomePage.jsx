@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../components/navbar.jsx'
+import Navbar from '../components/Navbar.jsx'
 import HeroSection from '../components/HeroSection.jsx'
 import FeaturesSection from '../components/FeaturesSection.jsx'
 import HowItWorksSection from '../components/HowItWorksSection.jsx'
