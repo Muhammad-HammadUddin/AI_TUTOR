@@ -6,7 +6,7 @@ import { useUser } from "../context/Auth.jsx";
 
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
- const {login,setLogin}=useUser();
+ const {login}=useUser();
   const navigate=useNavigate();
   return (
     <nav className="bg-slate-800/50 backdrop-blur-sm border-b border-slate-700/50 sticky top-0 z-50">
