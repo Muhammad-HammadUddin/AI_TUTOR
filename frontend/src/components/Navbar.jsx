@@ -2,7 +2,7 @@
 
 import React, { useState } from "react"
 import { useNavigate } from "react-router-dom"
-import { useUser } from "../context/Auth";
+import { useUser } from "../context/Auth.jsx";
 
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)

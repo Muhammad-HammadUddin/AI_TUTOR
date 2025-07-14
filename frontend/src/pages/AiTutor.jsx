@@ -2,8 +2,8 @@
 import { useEffect, useState } from "react"
 import { Bot, BookOpen, Brain, Lightbulb, Clock, Target,LoaderPinwheel } from "lucide-react"
 import { toast } from "react-toastify"
-import axiosInstance from "../../utils/axios"
-import { API_PATH } from "../../utils/apiPath"
+import axiosInstance from "../../utils/axios.js"
+import { API_PATH } from "../../utils/apiPath.js"
 import { useAnswer } from './../context/ResponseContext.jsx';
 import ExplanationDisplay from "../components/ExplanationDisplay.jsx"
 import { useUser } from "../context/Auth.jsx"

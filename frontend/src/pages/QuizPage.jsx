@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import { Brain, ArrowLeft, Home, CheckCircle, XCircle, Trophy, RotateCcw, ArrowRight } from "lucide-react"
-import { useAnswer } from "../context/ResponseContext"
-import { useUser } from "../context/Auth"
+import { useAnswer } from "../context/ResponseContext.jsx"
+import { useUser } from "../context/Auth.jsx"
 import { useNavigate } from "react-router-dom"
 
 export default function QuizPage() {

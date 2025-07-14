@@ -1,10 +1,10 @@
 import React from 'react'
-import Navbar from '../components/navbar'
-import HeroSection from '../components/HeroSection'
-import FeaturesSection from '../components/FeaturesSection'
-import HowItWorksSection from '../components/HowItWorksSection'
-import PreviousQuestionsSection from '../components/PreviousQuestionsSection'
-import Footer from '../components/Footer'
+import Navbar from '../components/navbar.jsx'
+import HeroSection from '../components/HeroSection.jsx'
+import FeaturesSection from '../components/FeaturesSection.jsx'
+import HowItWorksSection from '../components/HowItWorksSection.jsx'
+import PreviousQuestionsSection from '../components/PreviousQuestionsSection.jsx'
+import Footer from '../components/Footer.jsx'
 
 const HomePage = () => {
   return (

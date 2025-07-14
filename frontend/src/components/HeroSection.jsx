@@ -1,6 +1,6 @@
 import React from "react"
 import { ArrowRight, Play } from "lucide-react"
-import { useUser } from "../context/Auth"
+import { useUser } from "../context/Auth.jsx"
 import { useNavigate } from "react-router-dom";
 
 export default function HeroSection() {

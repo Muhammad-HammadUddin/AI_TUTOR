@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { Star } from "lucide-react";
-import axiosInstance from "../../utils/axios";
-import { API_PATH } from "../../utils/apiPath";
+import axiosInstance from "../../utils/axios.js";
+import { API_PATH } from "../../utils/apiPath.js";
 import { toast } from "react-toastify";
-import {format,formatDistanceToNow } from "date-fns"
+import {formatDistanceToNow } from "date-fns"
 import { useNavigate } from 'react-router-dom';
  // Enable "fromNow()" formatting
 
