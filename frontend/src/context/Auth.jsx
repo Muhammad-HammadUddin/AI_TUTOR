@@ -22,7 +22,16 @@ const UserProvider = ({ children }) => {
     console.log("Restored user:", parsedUser)
     console.log(parsedUser.token)
   }
-}, [setUser])
+}, [])
+
+
+  useEffect(() => {
+  if (user) {
+    // optional: sync token or other things
+    setToken(user.token)
+    console.log("User changed:", user)
+  }
+}, [user])
   return (
     <UserContext.Provider value={{ user, setUser,login,setLogin,token }}>
       {children}
