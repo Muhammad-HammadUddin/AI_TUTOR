@@ -16,7 +16,7 @@ export default function KnowledgeCard({handleStartQuiz,isLoading}) {
                 Ready to Test Your Knowledge?
               </h3>
               <p className="text-slate-300">
-                Take a quiz on photosynthesis to reinforce what you've learned and test your understanding!
+                Take a quiz on what you've learned and test your understanding!
               </p>
             </div>
           </div>
